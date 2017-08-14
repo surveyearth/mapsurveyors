@@ -17,7 +17,7 @@ $.extend(MapsLib, {
     maxDistanceFromDefaultCenter: 0,
     nearbyZoomThreshold:-1,
     searchRadiusCircle: null,
-    userPosition:       null,
+    userPosition:       true,
     nearbyPosition:     null,
     overrideCenter:     false, 
     centerQueued:       false,
@@ -46,7 +46,7 @@ $.extend(MapsLib, {
     mapOverlayLayers:   [],
     mapOverlayOrder:    [],
     map_centroid:       new google.maps.LatLng(37.77, -122.45), // center on SF if all else fails
-    defaultZoom:        9,
+    defaultZoom:        3,
 
     // markers
     addrMarker:         null,
